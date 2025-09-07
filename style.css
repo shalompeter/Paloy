@@ -856,9 +856,6 @@ div#preloader {
   .about-area .col-md-7 {
     width: 100%; /* full width */
   }
-  footer {
-    margin-top: -20rem;
-  }
 }
 
 .about-content {
@@ -1172,17 +1169,7 @@ div#preloader {
 .single-awesome-project:hover .add-actions {
   opacity: 1;
 }
-.awesome-img > a::after {
-  background: rgba(0, 44, 87, 0.95);
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  transition: 0.4s;
-}
+
 .add-actions {
   display: block;
   height: 100%;
@@ -1218,23 +1205,7 @@ div#preloader {
   cursor: pointer;
   position: relative;
 }
-.project-dec h4::after {
-  position: absolute;
-  content: "\e628";
-  right: 40px;
-  top: 0px;
-  font-family: themify;
-  font-size: 18px;
-  width: 46px;
-  height: 30px;
-  border: 1px solid #3078fb;
-  background: #3078fb;
-  color: #fff;
-  text-align: center;
-  line-height: 27px;
-  opacity: 0;
-  transition: 0.5s;
-}
+
 .single-awesome-project:hover .project-dec h4::after {
   right: 0px;
   opacity: 1;
