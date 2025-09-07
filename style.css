@@ -781,15 +781,21 @@ div#preloader {
 }
 .wel-content p {
   font-size: 16px;
+  margin-bottom: 24px !important;
 }
 .well-services:nth-child(2n) {
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
 }
 .wel-content a {
-  position: relative;
+  padding: 12px 20px;
+  border: 1px solid #3078fb;
+  border-radius: 2px;
+  background: #3078fb;
+  color: #fff;
+  transition: 0.4s;
+  font-size: 15px;
   font-weight: 500;
-  color: #444;
 }
 .well-services:hover::after {
   transition: 0.4s;
@@ -849,6 +855,9 @@ div#preloader {
   .about-area .col-md-5,
   .about-area .col-md-7 {
     width: 100%; /* full width */
+  }
+  footer {
+    margin-top: -20rem;
   }
 }
 
@@ -1088,8 +1097,19 @@ div#preloader {
   text-transform: capitalize;
 }
 .add-contact {
+  display: flex;
   float: left;
+  flex-wrap: wrap; /* allows wrapping if screen is small */
+  gap: 20px; /* spacing between items */
+  align-items: center; /* vertically center icons/text */
 }
+
+.add-contact .call-us {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+}
+
 .call-us {
   display: block;
   color: #fff;
@@ -1647,7 +1667,8 @@ div#preloader {
 /*----------------------------------------*/
 .footer-area {
   padding: 90px 0;
-  background: #fdfcfc;
+  background: #062241;
+  color: white !important;
 }
 .footer-logo {
   margin-bottom: 20px;
@@ -1656,10 +1677,10 @@ div#preloader {
   margin-right: 30px;
 }
 .footer-head p {
-  color: #151b2c;
+  color: white !important;
 }
 .footer-head h4 {
-  color: #151b2c;
+  color: white !important;
   font-size: 20px;
   margin-bottom: 20px;
   text-transform: capitalize;
@@ -1710,7 +1731,7 @@ div#preloader {
   float: left;
 }
 .footer-contacts p span {
-  color: #3078fb;
+  color: white;
   font-weight: 500;
 }
 .subs-feilds {
@@ -1777,6 +1798,10 @@ div#preloader {
 .footer-area-bottom {
   background: #f5f8fb none repeat scroll 0 0;
   padding: 25px 0;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
 }
 .copyright-text a:hover {
   text-decoration: underline;
