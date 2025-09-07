@@ -842,6 +842,15 @@ div#preloader {
   object-fit: cover; /* crop image to fit without distortion */
   display: block;
 }
+@media (max-width: 768px) {
+  .about-area .row {
+    display: block; /* stack columns vertically */
+  }
+  .about-area .col-md-5,
+  .about-area .col-md-7 {
+    width: 100%; /* full width */
+  }
+}
 
 .about-content {
   background: #062241;
