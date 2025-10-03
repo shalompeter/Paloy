@@ -9,7 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="img/logo/icon_on_navyblue (1).png"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -74,12 +78,11 @@
 
         <!-- Desktop Nav -->
         <nav
-          class="hidden lg:!flex text-3xl space-x-8 text-gray-800 font-light"
+          class="hidden lg:!flex text-3xl lg:text-[1.2em] space-x-8 text-gray-800 font-meduim"
         >
           <a href="./index.html" class="hover:text-blue-600">Home</a>
           <a href="./about.html" class="hover:text-blue-600">About</a>
           <a href="./services.html" class="hover:text-blue-600">Services</a>
-          <a href="#contact" class="hover:text-blue-600">Contact Us</a>
         </nav>
 
         <!-- CTA button (desktop) -->
@@ -139,10 +142,6 @@
               <div class="section-headline white-headline text-center">
                 <h3>About us</h3>
               </div>
-              <ul>
-                <li class="home-bread">Home</li>
-                <li>About us</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -156,18 +155,10 @@
     >
       <div class="max-w-8xl mx-auto text-center px-6">
         <!-- Heading -->
-        <h3
-          class="text-4xl lg:!text-[7rem] font-bold text-gray-900 mb-6 relative inline-block"
-        >
-          About <span class="text-blue-500">Us</span>
-          <span
-            class="absolute left-1/2 -bottom-2 w-16 h-1 bg-yellow-500 rounded-full transform -translate-x-1/2"
-          ></span>
-        </h3>
 
         <!-- Paragraph -->
         <p
-          class="text-lg mt-4 lg:mt-[3rem] text-center lg:text-3xl text-gray-700 leading-relaxed lg:max-w-[80%] mx-auto"
+          class="text-lg mt-4 lg:mt-[2rem] text-center lg:text-3xl text-gray-700 leading-relaxed lg:max-w-[80%] mx-auto"
         >
           Paloy Global Resources LTD. specialises in providing top-tier staffing
           solutions across multiple industries. The company prides itself on
@@ -184,56 +175,53 @@
     <!-- Welcome service area start -->
     <div class="welcome-area area-padding -mt-[15rem] lg:-mt-[5rem]">
       <!-- Vision -->
-      <div
-        class="flex items-center justify-center py-28 bg-gray-50"
-        style="font-family: 'Poppins', sans-serif"
-      >
-        <div class="max-w-8xl mx-auto text-center px-6 animate-fadeIn">
-          <h3
-            class="text-4xl lg:!text-[6rem] font-bold text-gray-900 mb-6 relative inline-block"
-          >
-            Vision
-            <span
-              class="absolute left-1/2 -bottom-2 w-16 h-1 bg-blue-500 rounded-full transform -translate-x-1/2"
-            ></span>
-          </h3>
-          <p
-            class="text-lg mt-4 lg:mt-[3rem] text-center lg:text-3xl text-gray-700 leading-relaxed max-w-[70%] mx-auto"
-          >
-            To be the
-            <span class="italic text-blue-600">leading provider</span> of
-            skilled staffing solutions and consultancy services that empower
-            businesses to thrive in a competitive, rapidly evolving global
-            market.
-          </p>
-        </div>
-      </div>
-
-      <!-- Mission -->
-      <div
-        class="flex items-center justify-center py-28 bg-white"
-        style="font-family: 'Poppins', sans-serif"
-      >
-        <div class="max-w-8xl mx-auto text-center px-6 animate-fadeIn">
-          <h3
-            class="text-4xl lg:!text-[6rem] font-bold text-gray-900 mb-6 relative inline-block"
-          >
-            Mission
-            <span
-              class="absolute left-1/2 -bottom-2 w-16 h-1 bg-yellow-500 rounded-full transform -translate-x-1/2"
-            ></span>
-          </h3>
-          <p
-            class="text-lg mt-4 lg:mt-[3rem] text-center lg:text-3xl text-gray-700 leading-relaxed max-w-[70%] mx-auto"
-          >
-            To provide businesses with
-            <span class="italic text-yellow-600"
-              >exceptional human resources</span
+      <div class="grid grid-cols-1 lg:grid-cols-2">
+        <!-- Vision Section -->
+        <div
+          class="flex items-center justify-center py-28 bg-blue-600 text-white"
+          style="font-family: 'Poppins', sans-serif"
+        >
+          <div class="max-w-3xl mx-auto text-center px-6 animate-fadeIn">
+            <h3
+              class="text-4xl text-white lg:!text-[5rem] font-bold mb-6 relative inline-block"
             >
-            and transformative consultancy, ensuring they achieve operational
-            excellence, scalability, and
-            <span class="italic">long-term profitability</span>.
-          </p>
+              Vision
+            </h3>
+            <p
+              class="text-lg text-white mt-4 lg:mt-[2.5rem] lg:text-2xl leading-relaxed max-w-[80%] mx-auto"
+            >
+              To be the
+              <span class="italic font-semibold">leading provider</span> of
+              skilled staffing solutions and consultancy services that empower
+              businesses to thrive in a competitive, rapidly evolving global
+              market.
+            </p>
+          </div>
+        </div>
+
+        <!-- Mission Section -->
+        <div
+          class="flex items-center justify-center py-28 bg-white text-gray-900"
+          style="font-family: 'Poppins', sans-serif"
+        >
+          <div class="max-w-3xl mx-auto text-center px-6 animate-fadeIn">
+            <h3
+              class="text-4xl lg:!text-[5rem] font-bold mb-6 relative inline-block"
+            >
+              Mission
+            </h3>
+            <p
+              class="text-lg mt-4 lg:mt-[2.5rem] lg:text-2xl text-gray-700 leading-relaxed max-w-[80%] mx-auto"
+            >
+              To provide businesses with
+              <span class="italic text-yellow-600"
+                >exceptional human resources</span
+              >
+              and transformative consultancy, ensuring they achieve operational
+              excellence, scalability, and
+              <span class="italic">long-term profitability</span>.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -255,7 +243,7 @@
       </style>
 
       <h3
-        class="text-4xl w-full !my-[3rem] text-center lg:!text-[5rem] font-bold text-gray-900 mb-6 inline-block"
+        class="text-[4rem] w-full lg:!mt-[10rem] mt-[3rem] text-center lg:!text-[4rem] font-bold text-gray-900 mb-6 inline-block"
       >
         Our Goals
       </h3>
@@ -321,13 +309,16 @@
       </div>
     </div>
 
-    <div id="project" class="service-area bg-color area-padding-2">
+    <div
+      id="project"
+      class="service-area !-pt-[5rem] !-mt-[6rem] bg-color area-padding-2"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="section-headline text-center">
               <h1
-                class="text-4xl w-full !my-[3rem] text-center lg:!text-[5rem] font-bold text-gray-900 mb-6 inline-block"
+                class="text-4xl w-full text-center lg:!text-[4rem] font-bold text-gray-900 mb-6 inline-block"
               >
                 Services
               </h1>
