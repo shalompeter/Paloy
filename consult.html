@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paloy Global Expert Consultancy</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        scroll-behavior: smooth;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes slideInLeft {
+        from {
+          opacity: 0;
+          transform: translateX(-60px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      @keyframes slideInRight {
+        from {
+          opacity: 0;
+          transform: translateX(60px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .fade-in-up {
+        animation: fadeInUp 1s ease-out forwards;
+      }
+      .slide-left {
+        animation: slideInLeft 1s ease-out forwards;
+      }
+      .slide-right {
+        animation: slideInRight 1s ease-out forwards;
+      }
+    </style>
+  </head>
+
+  <body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header
+      class="fixed top-0 left-0 w-full bg-white border-b border-gray-200 z-50"
+    >
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4"
+      >
+        <img src="img/background/logo.png" alt="Paloy Logo" class="h-12" />
+        <nav class="hidden md:flex space-x-8 text-gray-800">
+          <a href="./index.html" class="hover:text-blue-700">Home</a>
+          <a href="./about.html" class="hover:text-blue-700">About</a>
+          <a href="./services.html" class="hover:text-blue-700">Services</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="consultancy"
+      class="pt-32 pb-20 bg-[#001f3f] text-white text-center fade-in-up"
+    >
+      <div class="max-w-5xl mx-auto px-6">
+        <h1 class="text-5xl font-bold mb-6">Paloy Global Expert Consultancy</h1>
+        <p class="text-xl leading-relaxed">
+          We help organisations grow through structured strategies, digital
+          transformation, and creative branding. Our mission is to give
+          businesses the clarity, systems, and tools they need to scale
+          sustainably and stay competitive in a fast-changing world.
+        </p>
+      </div>
+    </section>
+
+    <!-- Business Process Optimisation -->
+    <section class="py-24">
+      <div
+        class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6"
+      >
+        <img
+          src="./img/counsel-2.jpeg"
+          alt="Business Optimization"
+          class="w-full h-auto rounded-lg slide-left"
+        />
+
+        <div class="slide-right">
+          <h2 class="text-4xl font-bold text-[#001f3f] mb-6">
+            Business Process Optimisation
+          </h2>
+          <p class="text-lg leading-relaxed mb-6 text-gray-700">
+            We examine your current operations to identify inefficiencies,
+            remove bottlenecks, and redesign your workflow for smoother, faster,
+            and more cost-effective performance.
+          </p>
+
+          <ul class="space-y-4 text-gray-700">
+            <li>
+              <strong>Workflow assessment & redesign:</strong> We analyse your
+              processes and rebuild efficient workflows.
+            </li>
+            <li>
+              <strong>Cost-saving strategies:</strong> Reduce waste and optimise
+              resource use.
+            </li>
+            <li>
+              <strong>System automation & integration:</strong> Use technology
+              to eliminate repetitive manual work.
+            </li>
+            <li>
+              <strong>Productivity improvement plans:</strong> Step-by-step
+              performance strategies.
+            </li>
+            <li>
+              <strong>Scalable operational structures:</strong> Build systems
+              ready for future growth.
+            </li>
+          </ul>
+
+          <p class="mt-6 text-black font-semibold">
+            Benefit: Stronger systems, lower costs, smoother operations.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Branding & Marketing -->
+    <section class="py-24 bg-blue-50">
+      <div
+        class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6"
+      >
+        <div class="slide-left">
+          <h2 class="text-4xl font-bold text-[#001f3f] mb-6">
+            Branding, Social Media & Digital Visibility
+          </h2>
+          <p class="text-lg leading-relaxed mb-6 text-gray-700">
+            We help businesses build powerful brands through creative design,
+            strategy, and storytelling that connects with the right audience.
+          </p>
+
+          <ul class="space-y-4 text-gray-700">
+            <li>
+              <strong>Brand Strategy & Identity:</strong> Define your purpose
+              and tone.
+            </li>
+            <li>
+              <strong>Visual Design & Logo:</strong> Create instantly
+              recognisable brand visuals.
+            </li>
+            <li>
+              <strong>Campaign Creative Direction:</strong> Build awareness with
+              consistent messaging.
+            </li>
+            <li>
+              <strong>Social Media Growth:</strong> Boost engagement and
+              customer loyalty.
+            </li>
+            <li>
+              <strong>Analytics & Optimisation:</strong> Track, measure, and
+              refine marketing results.
+            </li>
+          </ul>
+
+          <p class="mt-6 text-black font-semibold">
+            Benefit: A stronger brand, higher visibility, and loyal audience.
+          </p>
+        </div>
+
+        <img
+          src="./img/counsel-1.jpeg"
+          alt="Branding"
+          class="w-full h-auto rounded-lg slide-right"
+        />
+      </div>
+    </section>
+
+    <!-- Software Development -->
+    <section class="py-10">
+      <div
+        class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center px-6"
+      >
+        <img
+          src="./img/counsel-2.jpeg"
+          alt="Software Development"
+          class="w-full h-auto rounded-lg slide-left"
+        />
+
+        <div class="slide-right">
+          <h2 class="text-4xl font-bold text-[#001f3f] mb-6">
+            Software Development & Technology
+          </h2>
+          <p class="text-lg leading-relaxed mb-6 text-gray-700">
+            We design practical, secure digital tools that improve workflows and
+            customer experience.
+          </p>
+
+          <ul class="space-y-4 text-gray-700">
+            <li>
+              <strong>Web & Mobile Apps:</strong> Fast, responsive,
+              user-friendly builds.
+            </li>
+            <li>
+              <strong>Custom Software:</strong> Tailored to your operations.
+            </li>
+            <li>
+              <strong>UI/UX Design:</strong> Intuitive, human-centered design.
+            </li>
+            <li>
+              <strong>Agile Management:</strong> Faster delivery, flexible
+              process.
+            </li>
+          </ul>
+
+          <p class="mt-6 text-black font-semibold">
+            Benefit: Technology that drives growth and efficiency.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-24 bg-blue-50 text-center fade-in-up">
+      <div class="max-w-5xl mx-auto px-6">
+        <h2 class="text-4xl font-bold text-[#001f3f] mb-8">
+          Why Choose Paloy Global?
+        </h2>
+        <ul class="space-y-6 text-lg text-gray-700 text-left md:text-center">
+          <li>
+            ✔️ We combine people, strategy, and technology for measurable
+            results.
+          </li>
+          <li>✔️ Solutions tailored to your unique industry challenges.</li>
+          <li>✔️ Ethical, sustainable, and transparent service delivery.</li>
+          <li>✔️ Continuous improvement and long-term partnership.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-[#001f3f] text-white py-12">
+      <div
+        class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12"
+      >
+        <div>
+          <img
+            src="img/background/logo.png"
+            alt="Paloy Logo"
+            class="h-12 mb-4"
+          />
+          <p class="text-sm leading-relaxed">
+            Paloy Global Expert Consultancy — empowering businesses with
+            clarity, systems, and sustainable growth.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-semibold mb-4">Contact</h4>
+          <ul class="space-y-2 text-sm">
+            <li><span class="font-medium">Location:</span> Essex, UK</li>
+            <li><span class="font-medium">Tel:</span> +44 123 456 7890</li>
+            <li>
+              <span class="font-medium">Email:</span> info@paloyglobal.com
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xl font-semibold mb-4">Follow Us</h4>
+          <div class="flex space-x-5">
+            <a href="#" class="hover:text-blue-300"
+              ><i class="fab fa-facebook text-xl"></i
+            ></a>
+            <a href="#" class="hover:text-blue-300"
+              ><i class="fab fa-twitter text-xl"></i
+            ></a>
+            <a href="#" class="hover:text-blue-300"
+              ><i class="fab fa-linkedin text-xl"></i
+            ></a>
+            <a href="#" class="hover:text-blue-300"
+              ><i class="fab fa-instagram text-xl"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="border-t border-white/20 mt-12 pt-6 text-center text-xs text-white/70"
+      >
+        © 2025 Paloy Global Expert Consultancy. All rights reserved.
+      </div>
+    </footer>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/6e56a8a9a4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
